@@ -10,7 +10,7 @@ public class FollowCam : MonoBehaviour
 
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         this.transform.position = player.transform.position + new Vector3(0,0,-10);        
     }
